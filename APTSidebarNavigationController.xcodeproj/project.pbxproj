@@ -8,12 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		9E6CE4312356F43800FAC1BF /* APTSidebarNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E6CE42F2356F43800FAC1BF /* APTSidebarNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E6CE43F2356F47100FAC1BF /* APTSidebarContentSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E6CE4372356F47100FAC1BF /* APTSidebarContentSegue.m */; };
+		9E6CE4402356F47100FAC1BF /* APTSidebarNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E6CE4382356F47100FAC1BF /* APTSidebarNavigationController.h */; };
+		9E6CE4412356F47100FAC1BF /* APTSidebarContentSegue.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E6CE4392356F47100FAC1BF /* APTSidebarContentSegue.h */; };
+		9E6CE4422356F47100FAC1BF /* UIViewController+APTSidebarNavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E6CE43A2356F47100FAC1BF /* UIViewController+APTSidebarNavigation.m */; };
+		9E6CE4432356F47100FAC1BF /* APTSidebarNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E6CE43B2356F47100FAC1BF /* APTSidebarNavigationController.m */; };
+		9E6CE4442356F47100FAC1BF /* APTSidebarNavigationControllerPushSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E6CE43C2356F47100FAC1BF /* APTSidebarNavigationControllerPushSegue.m */; };
+		9E6CE4452356F47100FAC1BF /* UIViewController+APTSidebarNavigation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E6CE43D2356F47100FAC1BF /* UIViewController+APTSidebarNavigation.h */; };
+		9E6CE4462356F47100FAC1BF /* APTSidebarNavigationControllerPushSegue.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E6CE43E2356F47100FAC1BF /* APTSidebarNavigationControllerPushSegue.h */; };
+		9E6CE4482356F48800FAC1BF /* APTSidebarNavigationController.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 9E6CE4472356F48800FAC1BF /* APTSidebarNavigationController.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9E6CE42C2356F43800FAC1BF /* APTSidebarNavigationController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = APTSidebarNavigationController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E6CE42F2356F43800FAC1BF /* APTSidebarNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APTSidebarNavigationController.h; sourceTree = "<group>"; };
 		9E6CE4302356F43800FAC1BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E6CE4372356F47100FAC1BF /* APTSidebarContentSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APTSidebarContentSegue.m; sourceTree = "<group>"; };
+		9E6CE4382356F47100FAC1BF /* APTSidebarNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APTSidebarNavigationController.h; path = "../../../Downloads/timeselfcare-ios-review-3.0/Pods/APTSidebarNavigationController/APTSidebarNavigationController/APTSidebarNavigationController/APTSidebarNavigationController.h"; sourceTree = "<group>"; };
+		9E6CE4392356F47100FAC1BF /* APTSidebarContentSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APTSidebarContentSegue.h; sourceTree = "<group>"; };
+		9E6CE43A2356F47100FAC1BF /* UIViewController+APTSidebarNavigation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+APTSidebarNavigation.m"; sourceTree = "<group>"; };
+		9E6CE43B2356F47100FAC1BF /* APTSidebarNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APTSidebarNavigationController.m; sourceTree = "<group>"; };
+		9E6CE43C2356F47100FAC1BF /* APTSidebarNavigationControllerPushSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APTSidebarNavigationControllerPushSegue.m; sourceTree = "<group>"; };
+		9E6CE43D2356F47100FAC1BF /* UIViewController+APTSidebarNavigation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+APTSidebarNavigation.h"; sourceTree = "<group>"; };
+		9E6CE43E2356F47100FAC1BF /* APTSidebarNavigationControllerPushSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APTSidebarNavigationControllerPushSegue.h; sourceTree = "<group>"; };
+		9E6CE4472356F48800FAC1BF /* APTSidebarNavigationController.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = APTSidebarNavigationController.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,7 +65,16 @@
 			isa = PBXGroup;
 			children = (
 				9E6CE42F2356F43800FAC1BF /* APTSidebarNavigationController.h */,
+				9E6CE4392356F47100FAC1BF /* APTSidebarContentSegue.h */,
+				9E6CE4372356F47100FAC1BF /* APTSidebarContentSegue.m */,
+				9E6CE4382356F47100FAC1BF /* APTSidebarNavigationController.h */,
+				9E6CE43B2356F47100FAC1BF /* APTSidebarNavigationController.m */,
+				9E6CE43E2356F47100FAC1BF /* APTSidebarNavigationControllerPushSegue.h */,
+				9E6CE43C2356F47100FAC1BF /* APTSidebarNavigationControllerPushSegue.m */,
+				9E6CE43D2356F47100FAC1BF /* UIViewController+APTSidebarNavigation.h */,
+				9E6CE43A2356F47100FAC1BF /* UIViewController+APTSidebarNavigation.m */,
 				9E6CE4302356F43800FAC1BF /* Info.plist */,
+				9E6CE4472356F48800FAC1BF /* APTSidebarNavigationController.podspec */,
 			);
 			path = APTSidebarNavigationController;
 			sourceTree = "<group>";
@@ -59,6 +86,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E6CE4452356F47100FAC1BF /* UIViewController+APTSidebarNavigation.h in Headers */,
+				9E6CE4462356F47100FAC1BF /* APTSidebarNavigationControllerPushSegue.h in Headers */,
+				9E6CE4402356F47100FAC1BF /* APTSidebarNavigationController.h in Headers */,
+				9E6CE4412356F47100FAC1BF /* APTSidebarContentSegue.h in Headers */,
 				9E6CE4312356F43800FAC1BF /* APTSidebarNavigationController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -120,6 +151,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E6CE4482356F48800FAC1BF /* APTSidebarNavigationController.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +162,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E6CE4442356F47100FAC1BF /* APTSidebarNavigationControllerPushSegue.m in Sources */,
+				9E6CE43F2356F47100FAC1BF /* APTSidebarContentSegue.m in Sources */,
+				9E6CE4432356F47100FAC1BF /* APTSidebarNavigationController.m in Sources */,
+				9E6CE4422356F47100FAC1BF /* UIViewController+APTSidebarNavigation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
